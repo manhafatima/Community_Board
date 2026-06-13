@@ -1,1 +1,1 @@
-This is Project 1 of WEB 102. 
+# WEB102 Project 1 - *Community Board*

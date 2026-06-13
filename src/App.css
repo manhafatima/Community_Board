@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: black;
+}
+
+.title {
+  text-align: center;
+  color: #222;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  font-size: 60px;
+  font-family: "Poppins";
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
+
+/* THIS is the important part */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 20px;
+  font-family: "Funnel Display";
+}
+
+.card {
+  background: rgb(206, 249, 236);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  color: black;
+}
+
+.card h2 {
+  color: black;
+  margin-top: 10px;
+  font-family: "Google Sans";
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.card-button {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-size: "Poppins";
+
+}
+
+.card-button:hover {
+  background-color: #0937b7;
+}
+
+.card p {
+  margin: 5px 0;
+}

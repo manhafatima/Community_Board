@@ -1,4 +1,4 @@
-# WEB102 Project 1 - *Community Board*
+# Community Board
 
 ## Overview
 
